@@ -1,0 +1,19 @@
+ebody{
+    margin: 0;
+  } 
+  body{
+    margin: 0;
+  }
+  .price {
+    color: green;
+    font-weight: bold;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:backwards;
+  }
+
+  @keyframes example {
+    from {background-color: red; color: white;}
+    to {background-color: yellow; color: black;}
+  }

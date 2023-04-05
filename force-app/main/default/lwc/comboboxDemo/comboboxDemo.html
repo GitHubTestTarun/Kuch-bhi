@@ -1,0 +1,32 @@
+<template>
+    <lightning-card title = "Accounts with Related Contacts">
+
+            <lightning-combobox
+
+                label ="Account"
+                value ={Value}
+                options = {Options}
+                placeholder = "Select Any One Account"
+                onchange = {handleChange}>
+            </lightning-combobox>
+            <p> Selected value is {Value} </p>
+
+    </lightning-card>
+
+    <lightning-card title = "Child records are ">
+        <div style = "height:200px">
+
+            <lightning-datatable hide-checkbox-column="false"
+
+                key-field="Id"
+                data = {Data} 
+                onclick = {handleRowSelection}
+                columns = {Columns}>
+
+            </lightning-datatable>
+            
+
+        </div>
+        
+    </lightning-card>
+</template>

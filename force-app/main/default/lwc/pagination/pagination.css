@@ -1,0 +1,11 @@
+.searchStyle {
+    color : red;
+    text-rendering: optimizeSpeed;
+    font-size: 30px;
+}
+
+.cardStyle{
+
+    width: max-content;
+
+}

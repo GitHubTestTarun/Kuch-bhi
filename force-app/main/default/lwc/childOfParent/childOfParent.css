@@ -1,0 +1,19 @@
+.alert{
+
+    padding: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    opacity: 111;
+    transition: opacity 0.6s;
+    margin-bottom: 10px;
+    width: fit-content;
+
+}
+
+.alert.success {background-color: rgb(12, 245, 12); color: red;}
+
+.alert.info{background-color: rgb(7, 187, 247); color: black;}
+
+.alert.warning {background-color: rgb(248, 121, 10);color: yellow;}
+.opop {background-color: blueviolet;color: white;}

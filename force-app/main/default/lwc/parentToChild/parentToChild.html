@@ -1,0 +1,19 @@
+<template>
+
+    <lightning-card title="parent " >
+
+        <div class = "sld-m-around_medium">
+            <h2><p>Hello I am Parent Component</p></h2>
+        </div>
+
+    </lightning-card>
+
+    <lightning-card title=" child">
+        <c-child-of-parent class-name = "success" message="This is a Success message for you"></c-child-of-parent>
+        <c-child-of-parent class-name = "info" message="This is a info message for you"></c-child-of-parent>
+        <c-child-of-parent class-name="warning" message="This is a warning message for you"></c-child-of-parent>
+        <c-child-of-parent message="This is a default message for you"></c-child-of-parent>
+        <c-child-of-parent class-name="opop" message="This is a opop message for you"></c-child-of-parent>
+    </lightning-card>
+
+</template>

@@ -1,0 +1,8 @@
+<apex:page controller="policyPageHandler" renderAs= "pdf" applyBodyTag="false" applyHtmlTag="false" showHeader="false" sidebar="false"
+standardStylesheets="true">
+    <!-- <apex:iframe src="data:application/pdf;base64,{!pdf}#toolbar=0&navpanes=0&zoom=90"></apex:iframe> -->
+    <!-- <iframe src="data:application/pdf;base64,{!pdf}#toolbar=0&navpanes=0&zoom=90" height="500" width="500"></iframe> -->
+ <!-- <iframe src="data:application/pdf;base64,{!pdf}"></iframe> -->
+ <!-- {!showPdf} -->
+ jdhjdgdhgd
+</apex:page>

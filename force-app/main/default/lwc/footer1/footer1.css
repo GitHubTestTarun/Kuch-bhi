@@ -1,0 +1,10 @@
+.footer{
+    position:absolute;
+    bottom: 0;
+    background-color: black;
+    color:yellow;
+    width: 100%;
+}
+.THIS .contentPanel {
+    width: 100%;
+}

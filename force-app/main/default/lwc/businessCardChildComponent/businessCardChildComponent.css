@@ -1,0 +1,27 @@
+:host{
+
+    display: flex;
+    height: auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 black;
+    width:fit-content;
+    margin:10px;
+    text-align: center;
+    font-family: arial;
+    font-style: italic;
+    color: blue;
+}
+
+.title{
+    color: blue;
+    font-size: 20px;
+}
+
+.button {
+
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}

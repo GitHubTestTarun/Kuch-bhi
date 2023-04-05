@@ -1,0 +1,9 @@
+<apex:page >
+    <!--Here $ means global objects-->
+    <!--by the help of these statements we are able to access data without using SOQL query -->
+     {!$User.FirstName}<br/>
+    {!$User.LastName}<br/>
+    {!$User.Email}<br/>
+    {!$Organization.Name}
+    
+</apex:page>

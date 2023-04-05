@@ -1,0 +1,13 @@
+<!--here we are going to define the template that is going to be used to render the cells of our columns -->
+
+<template>
+    <!--THis is my custom type template -{value} see pagination.js Name field here value is the fieldName which we are passing in the js of th ecomponent-->
+     <!--now the code which will redirect user to detail page -->
+     <!--example of sample code is 
+         <a href = "/{recordId">{value}</a>
+         for recordId  we pass recordId as attribute at the js file in which we have created our cystom type 
+         example here is in MyDataTableClickable.Js also you need to specify and column definition a typeAttributes ok
+     -->
+     THis is my custom type template -{value}
+     <a href = {recordId} onclick ={navigateToRecord}>{Value}</a>
+ </template>

@@ -1,0 +1,12 @@
+<template>
+    <h2><center> Rahul's Portoflio</center> </h2>
+    <!-- <div class="slds-hidden"><p>Hello Rahul</p></div>div> -->
+     <div if:true={showPDF} class = "slds-grid slds-grid--align-spread slds-p-around--medium  fadeOut">
+        
+        <!-- <iframe src = 'https://playful-fox-rnbplj-dev-ed--c.vf.force.com/resource/1680154438000/PolicyPdf1?#toolbar=0&navpanes=0&scrollbar=0' frameborder="0" height="500" width="500"></iframe> -->
+        <iframe src = {pdfLink} frameborder="0" height="500" width="500" class = "pdfFrame"></iframe>
+        <!-- <embed src= {pdfLink} type="application/pdf" width="100%" height="100%"> -->
+          <!-- <image src= {pdfLink}></image> -->
+      <!-- 'https://playful-fox-rnbplj-dev-ed.my.salesforce.com/sfc/p/5h000004Fvlr/a/5h000000U5FJ/WLVfhCmXFk2R4x5HlCrvt_7crH200ZrjJ7iwpSodqTQ' -->
+    </div>
+</template>

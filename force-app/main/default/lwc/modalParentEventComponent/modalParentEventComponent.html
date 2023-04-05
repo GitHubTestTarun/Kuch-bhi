@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title = "modalParentEvent Component">
+
+            <div class="slds-m-around_medium">
+                <button class = "para" onclick = {showHandler}>OPEN MODAL</button>
+                <c-modal-child-event-component header-text = 'CutomEvent Message!!!' body-text = 'This MOdal Is a Child Component. Triggered from parent component and on click of 
+                    close button it will dispatch an custom event to parent handler named as CloseEvent'></c-modal-child-event-component>
+            </div>
+
+    </lightning-card>
+    
+</template>

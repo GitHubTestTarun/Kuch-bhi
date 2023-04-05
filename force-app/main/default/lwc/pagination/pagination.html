@@ -1,0 +1,38 @@
+<template>
+    <lightning-card title = "List view of Account Records" class = "cardStyle"> 
+        <!--search box-->
+      
+            <lightning-input type = "text" class = "searchStyle" onload = {colorHandler} placeholder = "search" onchange = {handleSearch}></lightning-input>
+        
+        <lightning-card>
+           
+            <button onclick = {previousAndNext} value = "previous"  disabled = {PreviousDisabled}>previous</button>
+            <button onclick = {previousAndNext} value = "Next"  disabled = {NextDisabled}>Next</button>
+           
+                <span class="slds-badge"> Total Records: {totalRecords}</span>
+                <lightning-combobox label="Account Records" options={options} value = {recordsToShow} onchange={handleChange} ></lightning-combobox>
+                
+        </lightning-card>
+        
+            <c-my-data-table-clickable
+            key-field = "Id"
+            data = {recordsToDisplay}
+            columns = {columns}
+            onrowselection = {getSelectedName}
+            onsave = {handleSave}
+            draft-values = {EditedValues}
+            >
+        </c-my-data-table-clickable>
+
+        <!-- <lightning-datatable
+            key-field = "Id"
+            data = {recordsToDisplay}
+            columns = {columns}
+            onrowselection = {getSelectedName}
+            onsave = {handleSave}
+            draft-values = {EditedValues}
+            >
+        </lightning-datatable>-->
+
+        </lightning-card>
+</template>

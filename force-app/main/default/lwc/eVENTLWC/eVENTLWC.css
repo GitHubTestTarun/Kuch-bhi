@@ -1,0 +1,8 @@
+.button{
+    background-color:orange;
+    color: balck;
+    font-size: 30px;
+    font-display: swap;
+    border-radius: 20px;
+    border-width: 5px;
+}

@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title = "for each loops in lwc">
+
+            <template if:true = {footballsWeGet.data}> <!--if their is any data available here footballsWeGet.data is an array of data -->
+
+                <template for:each={footballsWeGet.data} for:item = "football" > <!--we are storing data one by one in another property named as item-->
+
+                        <h3 key = {football.Id}>{football.Name}</h3><!-- key attribute is used here which prints the value or name corresponding to the id -->
+
+                </template>
+
+
+            </template>
+        <template if:true = {footballsWeGet.error}>
+
+            {footballsWeGet.error}
+        </template>
+
+    </lightning-card>
+    
+</template>

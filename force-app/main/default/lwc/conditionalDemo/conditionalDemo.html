@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Button Card ">
+        <lightning-button variant="brand" label = {onclickButtonLabel} onclick = {HandleClick}></lightning-button>
+
+    </lightning-card>
+
+        <template if:true = {cardVisible}>
+        
+        <lightning-card title = "if true false demo ">
+
+                {myTitle}
+
+        </lightning-card>
+        
+    </template>
+
+</template>

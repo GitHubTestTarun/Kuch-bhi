@@ -1,0 +1,19 @@
+<template>
+    <div class = "A-1">
+
+        <lightning-card title = "conditional rendering">
+
+               <lightning-input type = "checkbox" label = "CLick Me " onchange = {handleChange}>
+               </lightning-input>
+
+                <template if:true={showMe}>
+                    I am Visible
+                </template>
+               <template if:false = {showMe}>
+                 I am not Visible
+               </template>
+        </lightning-card>
+
+    </div>
+    
+</template>

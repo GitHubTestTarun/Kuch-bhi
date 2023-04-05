@@ -1,0 +1,9 @@
+.myStyle {
+    background-color:red;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.slds-carousel__content-title {
+
+    color: cyan;
+}
